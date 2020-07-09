@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/recipe-app/static/css/main.820768c7.chunk.css",
-    "main.js": "/recipe-app/static/js/main.4ea54a6c.chunk.js",
-    "main.js.map": "/recipe-app/static/js/main.4ea54a6c.chunk.js.map",
+    "main.js": "/recipe-app/static/js/main.9322ebcb.chunk.js",
+    "main.js.map": "/recipe-app/static/js/main.9322ebcb.chunk.js.map",
     "runtime-main.js": "/recipe-app/static/js/runtime-main.b95f7359.js",
     "runtime-main.js.map": "/recipe-app/static/js/runtime-main.b95f7359.js.map",
     "static/js/2.a1666863.chunk.js": "/recipe-app/static/js/2.a1666863.chunk.js",
     "static/js/2.a1666863.chunk.js.map": "/recipe-app/static/js/2.a1666863.chunk.js.map",
     "index.html": "/recipe-app/index.html",
-    "precache-manifest.57fd57a657a23e234fe842524cb0b34d.js": "/recipe-app/precache-manifest.57fd57a657a23e234fe842524cb0b34d.js",
+    "precache-manifest.d561b1248a687920d3f2b500ac72e462.js": "/recipe-app/precache-manifest.d561b1248a687920d3f2b500ac72e462.js",
     "service-worker.js": "/recipe-app/service-worker.js",
     "static/css/main.820768c7.chunk.css.map": "/recipe-app/static/css/main.820768c7.chunk.css.map",
     "static/js/2.a1666863.chunk.js.LICENSE.txt": "/recipe-app/static/js/2.a1666863.chunk.js.LICENSE.txt",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.b95f7359.js",
     "static/js/2.a1666863.chunk.js",
     "static/css/main.820768c7.chunk.css",
-    "static/js/main.4ea54a6c.chunk.js"
+    "static/js/main.9322ebcb.chunk.js"
   ]
 }
