@@ -24,7 +24,7 @@ import AplicationProvider from './context/ContextAplication';
 
 function App() {
   return (
-    <AplicationProvider basename="/">
+    <AplicationProvider basename="/recipe-app">
       <Switch>
         <Route exact path="/" component={LoginScreen} />
         <Route exact path="/welcome" component={WelcomeScreen} />
