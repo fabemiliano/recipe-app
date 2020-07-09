@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import DetailsDrinkScreen from './components/DetailsDrinkScreen';
 import DetailsFoodScreen from './components/DetailsFoodScreen';
@@ -23,11 +23,8 @@ import './App.css';
 import AplicationProvider from './context/ContextAplication';
 
 function App() {
-  useEffect(() => {
-    document.title = 'Recipe App'
-  }, [])
   return (
-    <AplicationProvider>
+    <AplicationProvider basename="/">
       <Switch>
         <Route exact path="/" component={LoginScreen} />
         <Route exact path="/welcome" component={WelcomeScreen} />
