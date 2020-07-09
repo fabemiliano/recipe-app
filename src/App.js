@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import DetailsDrinkScreen from './components/DetailsDrinkScreen';
 import DetailsFoodScreen from './components/DetailsFoodScreen';
@@ -23,6 +23,9 @@ import './App.css';
 import AplicationProvider from './context/ContextAplication';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Trivia Game'
+  }, [])
   return (
     <AplicationProvider>
       <Switch>
