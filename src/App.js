@@ -24,7 +24,7 @@ import AplicationProvider from './context/ContextAplication';
 
 function App() {
   useEffect(() => {
-    document.title = 'Trivia Game'
+    document.title = 'Recipe App'
   }, [])
   return (
     <AplicationProvider>
