@@ -13,7 +13,6 @@ const handleFormSubmit = (saveInput, input, history) => {
   localStorage.setItem('mealsToken', 1);
   localStorage.setItem('cocktailsToken', 1);
   saveInput(input);
-
   return history.push('./welcome');
 };
 
