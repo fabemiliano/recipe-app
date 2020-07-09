@@ -1,0 +1,39 @@
+.container-profile {
+  background-image: url('../../images/loginbackground.jpg');
+  display: inline-block;
+  height: 100vh;
+  width: 360px;
+}
+
+.profile-screen-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+  width: 360px;
+}
+
+.profile-screen-buttons p {
+  font-size: 20px;
+  margin: 100px 0 0;
+}
+
+.profile-screen-buttons button {
+  background: rgb(32, 193, 214);
+  border-radius: 50px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-family: Chalkduster, serif;
+  font-size: 25px;
+  height: 82px;
+  line-height: 50px;
+  text-align: center;
+  transform: scale3d(1, 1, 1);
+  transition: transform 1s;
+  width: 300px;
+}
+
+.profile-screen-buttons button:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}

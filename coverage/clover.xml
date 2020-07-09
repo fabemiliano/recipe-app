@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1594309579823" clover="3.2.0">
+  <project timestamp="1594309579823" name="All files">
+    <metrics statements="734" coveredstatements="352" conditionals="308" coveredconditionals="134" methods="285" coveredmethods="131" elements="1327" coveredelements="617" complexity="0" loc="734" ncloc="734" packages="6" files="43" classes="43"/>
+    <package name="src">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="App.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/App.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="489" coveredstatements="260" conditionals="234" coveredconditionals="128" methods="193" coveredmethods="98"/>
+      <file name="DetailsDrinkScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/DetailsDrinkScreen.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+      <file name="DetailsFoodScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/DetailsFoodScreen.jsx">
+        <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+      <file name="DoneRecipes.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/DoneRecipes.jsx">
+        <metrics statements="27" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+      </file>
+      <file name="DrinkBasicInfo.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/DrinkBasicInfo.jsx">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="12" count="50" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="27" count="38" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="212" type="stmt"/>
+        <line num="39" count="212" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="51" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="28" type="stmt"/>
+        <line num="58" count="32" type="stmt"/>
+      </file>
+      <file name="DrinkButtons.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/DrinkButtons.jsx">
+        <metrics statements="30" coveredstatements="25" conditionals="24" coveredconditionals="16" methods="13" coveredmethods="10"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="18" type="stmt"/>
+        <line num="44" count="18" type="cond" truecount="2" falsecount="2"/>
+        <line num="45" count="18" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="18" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="71" count="9" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="85" count="9" type="stmt"/>
+        <line num="86" count="9" type="stmt"/>
+        <line num="87" count="9" type="stmt"/>
+        <line num="88" count="9" type="stmt"/>
+        <line num="89" count="9" type="stmt"/>
+        <line num="90" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="92" count="9" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+      </file>
+      <file name="DrinkSearchBar.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/DrinkSearchBar.jsx">
+        <metrics statements="37" coveredstatements="28" conditionals="21" coveredconditionals="11" methods="13" coveredmethods="11"/>
+        <line num="6" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="63" count="2" type="cond" truecount="2" falsecount="1"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="85" count="9" type="stmt"/>
+        <line num="86" count="9" type="stmt"/>
+        <line num="87" count="9" type="stmt"/>
+        <line num="88" count="9" type="stmt"/>
+        <line num="89" count="9" type="stmt"/>
+        <line num="90" count="9" type="stmt"/>
+        <line num="92" count="9" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="114" count="59" type="cond" truecount="2" falsecount="0"/>
+        <line num="115" count="24" type="stmt"/>
+        <line num="124" count="35" type="stmt"/>
+      </file>
+      <file name="ExploreDrinkIngredientScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ExploreDrinkIngredientScreen.jsx">
+        <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="ExploreDrinkScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ExploreDrinkScreen.jsx">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="ExploreFoodIngredientScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ExploreFoodIngredientScreen.jsx">
+        <metrics statements="10" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="23" count="563" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="43" count="551" type="stmt"/>
+      </file>
+      <file name="ExploreFoodOriginScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ExploreFoodOriginScreen.jsx">
+        <metrics statements="25" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+      </file>
+      <file name="ExploreFoodScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ExploreFoodScreen.jsx">
+        <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="ExploreHomeScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ExploreHomeScreen.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="FavoriteRecipes.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/FavoriteRecipes.jsx">
+        <metrics statements="29" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+      </file>
+      <file name="FoodBasicInfo.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/FoodBasicInfo.jsx">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="13" count="100" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="24" type="stmt"/>
+        <line num="27" count="76" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="102" type="stmt"/>
+        <line num="37" count="102" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="49" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="26" type="stmt"/>
+        <line num="56" count="14" type="stmt"/>
+      </file>
+      <file name="FoodButtons.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/FoodButtons.jsx">
+        <metrics statements="44" coveredstatements="38" conditionals="28" coveredconditionals="19" methods="19" coveredmethods="14"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="19" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="18" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="30" count="18" type="cond" truecount="2" falsecount="2"/>
+        <line num="31" count="18" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="18" type="stmt"/>
+        <line num="39" count="22" type="stmt"/>
+        <line num="40" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="17" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="65" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="69" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="76" count="9" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="94" count="9" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="108" count="9" type="stmt"/>
+        <line num="109" count="9" type="stmt"/>
+        <line num="110" count="9" type="stmt"/>
+        <line num="111" count="9" type="stmt"/>
+        <line num="112" count="9" type="stmt"/>
+        <line num="113" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="116" count="9" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+      </file>
+      <file name="FoodSearchBar.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/FoodSearchBar.jsx">
+        <metrics statements="37" coveredstatements="27" conditionals="19" coveredconditionals="8" methods="13" coveredmethods="11"/>
+        <line num="7" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="64" count="2" type="cond" truecount="2" falsecount="1"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="86" count="9" type="stmt"/>
+        <line num="87" count="9" type="stmt"/>
+        <line num="88" count="9" type="stmt"/>
+        <line num="89" count="9" type="stmt"/>
+        <line num="90" count="9" type="stmt"/>
+        <line num="91" count="9" type="stmt"/>
+        <line num="93" count="9" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="106" count="2" type="stmt"/>
+        <line num="116" count="20" type="cond" truecount="1" falsecount="1"/>
+        <line num="117" count="20" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+      </file>
+      <file name="Header.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/Header.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="14" coveredconditionals="14" methods="2" coveredmethods="2"/>
+        <line num="12" count="76" type="stmt"/>
+        <line num="13" count="76" type="stmt"/>
+        <line num="14" count="76" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+      </file>
+      <file name="InferiorMenu.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/InferiorMenu.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="76" type="stmt"/>
+      </file>
+      <file name="LoginScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/LoginScreen.jsx">
+        <metrics statements="22" coveredstatements="14" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="5"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="48" count="8" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="51" count="8" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="54" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="8" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+      </file>
+      <file name="MainDrinkScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/MainDrinkScreen.jsx">
+        <metrics statements="31" coveredstatements="31" conditionals="16" coveredconditionals="15" methods="11" coveredmethods="11"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="41" type="stmt"/>
+        <line num="29" count="187" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="85" type="stmt"/>
+        <line num="43" count="102" type="stmt"/>
+        <line num="50" count="41" type="stmt"/>
+        <line num="53" count="925" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="300" type="stmt"/>
+        <line num="66" count="625" type="stmt"/>
+        <line num="79" count="44" type="stmt"/>
+        <line num="80" count="44" type="stmt"/>
+        <line num="81" count="44" type="stmt"/>
+        <line num="82" count="44" type="stmt"/>
+        <line num="84" count="44" type="stmt"/>
+        <line num="85" count="8" type="stmt"/>
+        <line num="86" count="8" type="stmt"/>
+        <line num="87" count="8" type="stmt"/>
+        <line num="88" count="8" type="stmt"/>
+        <line num="89" count="8" type="stmt"/>
+        <line num="90" count="8" type="stmt"/>
+        <line num="91" count="8" type="stmt"/>
+        <line num="95" count="44" type="stmt"/>
+        <line num="96" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="9" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="104" count="44" type="stmt"/>
+        <line num="105" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="3" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="112" count="44" type="stmt"/>
+      </file>
+      <file name="MainFoodScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/MainFoodScreen.jsx">
+        <metrics statements="31" coveredstatements="31" conditionals="16" coveredconditionals="15" methods="11" coveredmethods="11"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="41" type="stmt"/>
+        <line num="29" count="238" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="85" type="stmt"/>
+        <line num="43" count="153" type="stmt"/>
+        <line num="50" count="41" type="stmt"/>
+        <line num="53" count="535" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="262" type="stmt"/>
+        <line num="66" count="273" type="stmt"/>
+        <line num="79" count="44" type="stmt"/>
+        <line num="80" count="44" type="stmt"/>
+        <line num="81" count="44" type="stmt"/>
+        <line num="82" count="44" type="stmt"/>
+        <line num="84" count="44" type="stmt"/>
+        <line num="85" count="8" type="stmt"/>
+        <line num="86" count="8" type="stmt"/>
+        <line num="87" count="8" type="stmt"/>
+        <line num="88" count="8" type="stmt"/>
+        <line num="89" count="8" type="stmt"/>
+        <line num="90" count="8" type="stmt"/>
+        <line num="91" count="8" type="stmt"/>
+        <line num="95" count="44" type="stmt"/>
+        <line num="96" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="9" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="104" count="44" type="stmt"/>
+        <line num="105" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="3" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="112" count="44" type="stmt"/>
+      </file>
+      <file name="NotFound.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/NotFound.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="ProfileScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ProfileScreen.jsx">
+        <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="ProgressDrinkScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ProgressDrinkScreen.jsx">
+        <metrics statements="31" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+      </file>
+      <file name="ProgressFoodScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/ProgressFoodScreen.jsx">
+        <metrics statements="32" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+      </file>
+      <file name="WelcomeScreen.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/WelcomeScreen.jsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="checklist.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/checklist.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="functionsProgressScreen.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/functionsProgressScreen.js">
+        <metrics statements="28" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="72" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.helpersComponents">
+      <metrics statements="125" coveredstatements="8" conditionals="64" coveredconditionals="0" methods="37" coveredmethods="0"/>
+      <file name="CockTailsControlsRecipeProgress.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/CockTailsControlsRecipeProgress.jsx">
+        <metrics statements="38" coveredstatements="2" conditionals="16" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+      </file>
+      <file name="CockTailsListRecipeProgress.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/CockTailsListRecipeProgress.jsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="CockTailsRenderRecipesInProgress.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/CockTailsRenderRecipesInProgress.jsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+      <file name="CockTailsfunctionsProgressScreen.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/CockTailsfunctionsProgressScreen.js">
+        <metrics statements="16" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="41" count="0" type="stmt"/>
+      </file>
+      <file name="MealListRecipeProgress.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/MealListRecipeProgress.jsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+      <file name="MealsControlsRecipeProgress.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/MealsControlsRecipeProgress.jsx">
+        <metrics statements="33" coveredstatements="2" conditionals="16" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="128" count="1" type="stmt"/>
+      </file>
+      <file name="MealsRenderRecipesInProgress.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/MealsRenderRecipesInProgress.jsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+      <file name="MealsfunctionsProgressScreen.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/components/helpersComponents/MealsfunctionsProgressScreen.js">
+        <metrics statements="18" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="57" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.context">
+      <metrics statements="42" coveredstatements="36" conditionals="4" coveredconditionals="2" methods="15" coveredmethods="12"/>
+      <file name="ContextAplication.jsx" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/context/ContextAplication.jsx">
+        <metrics statements="42" coveredstatements="36" conditionals="4" coveredconditionals="2" methods="15" coveredmethods="12"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="72" type="stmt"/>
+        <line num="12" count="72" type="stmt"/>
+        <line num="13" count="72" type="stmt"/>
+        <line num="14" count="72" type="stmt"/>
+        <line num="15" count="72" type="stmt"/>
+        <line num="16" count="72" type="stmt"/>
+        <line num="17" count="72" type="stmt"/>
+        <line num="19" count="72" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="72" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="31" count="72" type="stmt"/>
+        <line num="32" count="17" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="17" type="stmt"/>
+        <line num="35" count="17" type="stmt"/>
+        <line num="36" count="17" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="72" type="stmt"/>
+        <line num="44" count="17" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="17" type="stmt"/>
+        <line num="47" count="17" type="stmt"/>
+        <line num="48" count="17" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="55" count="72" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="63" count="72" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="71" count="72" type="stmt"/>
+        <line num="89" count="72" type="stmt"/>
+        <line num="96" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="68" coveredstatements="45" conditionals="2" coveredconditionals="1" methods="31" coveredmethods="19"/>
+      <file name="drink-api.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/services/drink-api.js">
+        <metrics statements="21" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="12"/>
+        <line num="2" count="19" type="stmt"/>
+        <line num="3" count="19" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+      <file name="foodApi.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/services/foodApi.js">
+        <metrics statements="47" coveredstatements="33" conditionals="2" coveredconditionals="1" methods="11" coveredmethods="7"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="19" type="stmt"/>
+        <line num="37" count="19" type="stmt"/>
+        <line num="38" count="19" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="54" count="8" type="stmt"/>
+        <line num="55" count="8" type="stmt"/>
+        <line num="56" count="8" type="stmt"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.tests.Mocks">
+      <metrics statements="7" coveredstatements="2" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="1"/>
+      <file name="Fetch.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/tests/Mocks/Fetch.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="MockLocalStorage.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/tests/Mocks/MockLocalStorage.js">
+        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="2" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="RenderService.js" path="/Users/fmartins/Trybe/fabemiliano.github.io/projetos/recipe-app/sd-03-recipes-app-04/src/tests/Mocks/RenderService.js">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="11" count="27" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

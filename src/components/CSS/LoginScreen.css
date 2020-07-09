@@ -1,0 +1,55 @@
+.login-screen {
+  align-items: center;
+  background-image: url('../../images/loginbackground.jpg');
+  background-size: cover;
+  border: 1px solid black;
+  box-shadow: gray 5px 5px 2px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  color: black;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.btn-login {
+  background-color: rgb(32, 193, 214);
+  border-radius: 30px;
+  height: 60px;
+  margin-top: 30px;
+  width: 180px;
+}
+
+.btn-login:disabled {
+  background-color: rgb(32, 193, 214);
+  height: 50px;
+  margin-top: 20px;
+  opacity: 0.7;
+  transition: 0.5s;
+  width: 150px;
+}
+
+.app-name {
+  color: rgb(32, 193, 214);
+  font-family: Chalkduster, serif;
+  font-size: 4rem;
+}
+
+.input-login {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 2px solid rgb(32, 193, 214);
+  color: rgb(32, 193, 214);
+  margin: auto;
+  padding: 15px 0;
+  width: 70%;
+}
