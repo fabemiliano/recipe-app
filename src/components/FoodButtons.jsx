@@ -111,7 +111,7 @@ function Buttons() {
   const { recipeInfo, id } = useContext(ContextAplication);
   useEffect(() => {
     if (getIfHasBeenFavorited(id)) { setIsFavorite(true); }
-  }, []);
+  }, [id]);
 
   return (
     <div className="bottom-buttons">

@@ -101,7 +101,7 @@ export default function ExploreFoodOriginScreen() {
     getMeals();
     setisLoading(false);
     getAreaList().then((data) => setAreas(data.meals));
-  }, []);
+  }, [getMeals]);
 
   return (
     <div>

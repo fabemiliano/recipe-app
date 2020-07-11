@@ -7,13 +7,12 @@
   position: relative;
   text-align: center;
   top: 50%;
-  width: 360px;
+  width: 100%;
 }
 
 .welcome-screen {
-  border: 10px solid rgb(32, 193, 214);
   height: 100vh;
-  width: 360px;
+  width: 100%;
 }
 
 a {

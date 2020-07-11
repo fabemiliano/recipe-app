@@ -3,23 +3,21 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
-  width: 360px;
+  width: 100%;
 }
 
 .favorite-recipes-card a img {
+  margin-top: 10px;
   border-radius: 50%;
   height: 120px;
   width: 120px;
+  border: groove 4px rgb(86, 230, 19);
 }
 
 .favorite-recipes-card p {
   color: #1901ed;
-  height: 10px;
-}
-
-.favorite-recipes-card div {
-  height: 20px;
   margin: 0;
+  margin-top: 10px;
 }
 
 .favorite-recipes-card {
@@ -27,21 +25,19 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  justify-content: flex-start;
+  height: 250px;
   margin: 5px;
   position: relative;
   width: 150px;
 }
 
-.favorite-recipes-card div p {
-  font-size: 0.75rem;
-}
-
 .favorite-recipes-screen {
   background-image: url('../../images/loginbackground.jpg');
-  height: 90vh;
+  background-size: cover;
   margin-top: 70px;
-  width: 360px;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .filter-and-cards {
@@ -51,6 +47,7 @@
 .favorite-filter-buttons {
   align-items: center;
   display: flex;
+  justify-content: center;
   position: relative;
   top: 20px;
 }
@@ -60,7 +57,7 @@
   justify-content: space-between;
   position: absolute;
   top: 90px;
-  width: 70%;
+  width: 80%;
 }
 
 .favorite-and-share button {
@@ -68,9 +65,9 @@
   background-color: rgb(32, 193, 214);
   border-radius: 50%;
   display: flex;
-  height: 30px;
+  height: 40px;
   justify-content: center;
-  width: 30px;
+  width: 40px;
 }
 
 .favorite-and-share button img {
@@ -89,4 +86,41 @@
   text-align: center;
   width: 250px;
   z-index: 1;
+}
+
+@media only screen and (min-width: 600px) {
+  .favorite-recipes-card a img {
+    height: 150px;
+    width: 150px;
+  }
+  .favorite-recipes-card p {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .favorite-recipes-card div {
+    height: 20px;
+    margin: 0;
+  }
+  .favorite-recipes-card {
+    height: 300px;
+    width: 300px;
+  }
+  .favorite-and-share {
+    top: 120px;
+    width: 50%;
+  }
+  .favorite-and-share button {
+    width: 50px;
+    height: 50px;
+  }
+  .favorite-recipes-card a img {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+  }
+  .favorite-and-share button img {
+    width: 30px;
+    height: 25px;
+  }
 }

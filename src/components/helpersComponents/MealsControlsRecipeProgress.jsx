@@ -88,6 +88,7 @@ function MealsControlsRecipeProgress(props) {
       <h1 data-testid="recipe-category">{inProgressRecipe.strMeal}</h1>
       <h2 data-testid="recipe-category">{inProgressRecipe.strCategory}</h2>
       <h3 data-testid="recipe-title"> Ingredients </h3>
+      <div className="check-div">
       {data.map((element, i) => (
         <div key={element.meal} data-testid={`${i}-ingredient-step`}>
           <span>
@@ -98,11 +99,11 @@ function MealsControlsRecipeProgress(props) {
           </span>
         </div>
       ))}
+      </div>
       <div className="instructions" data-testid="instructions">
         <h3>Instruções</h3>
         <p>{inProgressRecipe.strInstructions}</p>
       </div>
-      <div>
         {buttonEnabled
           ? (
             renderButton(inProgressRecipe, setGoToRoute)
@@ -117,7 +118,6 @@ function MealsControlsRecipeProgress(props) {
               Finish Recipe Button
             </button>
           )}
-      </div>
       {goToRoute && <Redirect to="/receitas-feitas" />}
     </div>
   );

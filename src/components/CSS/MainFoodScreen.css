@@ -2,14 +2,13 @@
   background-image: url('../../images/loginbackground.jpg');
   background-size: cover;
   margin: 70px 0;
-  min-height: 80vh;
-  width: 360px;
+  width: 100%;
 }
 
 .recipes-results {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+
   padding: 5px;
 }
 
@@ -25,29 +24,19 @@
 .button-div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding-top: 20px;
   text-align: center;
 }
 
-.product-pic {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  justify-content: center;
-  margin-bottom: 20px;
-  transform: scale3d(1, 1, 1);
-  transition: 1s;
-  width: 160px;
-}
+
 
 .product-pic:hover {
   align-items: center;
   border-radius: 10%;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 300px;
   justify-content: center;
   margin-bottom: 20px;
   width: 160px;
@@ -162,42 +151,7 @@
   background-color: #d241df;
 }
 
-.button-main-screen {
-  background-color: #3ec1d6;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 800;
-  height: 50px;
-  margin: 5px 10px;
-  opacity: 0.8;
-  padding: 2px;
-  text-align: center;
-  text-decoration: none;
-  transform: scale3d(1, 1, 1);
-  transition: 1s;
-  width: 100px;
-}
 
-.button-main-screen:hover {
-  background-color: #3ec1d6;
-  border: none;
-  border-radius: 50px;
-  color: white;
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 800;
-  height: 50px;
-  margin: 5px 10px;
-  opacity: 0.8;
-  padding: 2px;
-  text-align: center;
-  text-decoration: none;
-  transform: scale3d(1.1, 1.1, 1.1);
-  width: 100px;
-}
 
 .loader {
   animation: spin 2s linear infinite;
@@ -302,3 +256,158 @@ a:visited {
     transform: translateY(0);
   }
 }
+
+
+@media only screen and (min-width: 600px){
+
+.product-pic {
+
+}
+.product-pic:hover {
+  width: 300px;
+  margin: 5px 5px;
+}
+.recipe-image {
+  width: 150px;
+}
+.product-pic h5 {
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  margin: 10px;
+  max-height: 50px;
+  text-align: center;
+  width: 150px;
+}
+.product-pic {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  transform: scale3d(1, 1, 1);
+  transition: 1s;
+  width: 300px;
+  margin: 5px 5px;
+}
+.button-main-screen {
+  background-color: #3ec1d6;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  height: 50px;
+  margin: 5px 10px;
+  opacity: 0.8;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  transform: scale3d(1, 1, 1);
+  transition: 1s;
+  width:13%;
+}
+
+.button-main-screen:hover {
+  background-color: #3ec1d6;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  height: 50px;
+  margin: 5px 10px;
+  opacity: 0.8;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  transform: scale3d(1.1, 1.1, 1.1);
+  width: 13%;
+}
+}
+
+@media only screen and (max-width: 600px){
+
+  .product-pic {
+    width: 160px;
+    margin: 5px 5px;
+  }
+  .product-pic:hover {
+    width: 160px;
+    margin: 5px 5px;
+  }
+  .recipe-image {
+    width: 120px;
+  }
+  .product-pic h5 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 10px;
+    max-height: 50px;
+    text-align: center;
+    width: 150px;
+  }
+  .product-pic {
+    align-items: center;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform: scale3d(1, 1, 1);
+    transition: 1s;
+    width: 160px;
+  }
+
+  .product-pic:hover {
+    align-items: center;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 20px;
+    transform: scale3d(1, 1, 1);
+    transition: 1s;
+    width: 160px;
+  }
+  .button-main-screen {
+    background-color: #3ec1d6;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    height: 50px;
+    margin: 5px 10px;
+    opacity: 0.8;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    transform: scale3d(1, 1, 1);
+    transition: 1s;
+    width:25%;
+  }
+  
+  .button-main-screen:hover {
+    background-color: #3ec1d6;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    height: 50px;
+    margin: 5px 10px;
+    opacity: 0.8;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    transform: scale3d(1.1, 1.1, 1.1);
+    width: 25%;
+  }
+  }

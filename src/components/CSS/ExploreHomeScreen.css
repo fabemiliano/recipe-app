@@ -3,7 +3,7 @@
   background-size: cover;
   height: 90vh;
   margin: 60px 0 0;
-  width: 360px;
+  width: 100%;
 }
 
 .explore-button {
@@ -51,7 +51,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 80vh;
   justify-content: center;
   position: relative;
 }
@@ -84,7 +84,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 30px;
-  width: 360px;
+  width: 100%;
+}
+
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
 }
 
 @keyframes fade-in-fwd {
@@ -97,5 +105,14 @@
   100% {
     opacity: 1;
     transform: translateZ(0);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .explore-button {
+    width: 240px;
+  }
+  .explore-menu p {
+    font-size: 1.3rem;
   }
 }

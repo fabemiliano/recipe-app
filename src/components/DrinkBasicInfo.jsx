@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ContextAplication } from '../context/ContextAplication';
-import background from '../images/loginbackground.jpg';
 
 function renderRecomendations(recomendation) {
   return (
@@ -39,10 +38,8 @@ function BasicInfo() {
   const ingredients = (Object.keys(recipeInfo).filter((e) => e.includes('strMeasure')));
   return (
     <div className="basic-info">
-      <img src={background} className="background-img" alt="background" />
       <div className="wrapper">
         <div className="square" />
-        <img src={recipeInfo.strDrinkThumb} data-testid="recipe-photo" alt="thumb" width="100%" />
       </div>
       <h1 data-testid="recipe-title">{recipeInfo.strDrink}</h1>
       <h2 data-testid="recipe-category">{recipeInfo.strAlcoholic}</h2>

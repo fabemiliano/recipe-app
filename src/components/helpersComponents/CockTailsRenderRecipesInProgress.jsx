@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { copyContent } from '../functionsProgressScreen';
 import CockTailsListRecipeProgress from './CockTailsListRecipeProgress';
 import share from '../../images/shareIcon.svg';
-import background from '../../images/loginbackground.jpg';
 
 function CocktailsRenderRecipesInProgress(props) {
   const { values } = props;
@@ -16,7 +15,6 @@ function CocktailsRenderRecipesInProgress(props) {
   return (
     <div className="details-screen">
       <div className="basic-info">
-        <img src={background} className="background-img" alt="background" />
         <div className="wrapper">
           <div className="square" />
           <img src={inProgressDrink.strDrinkThumb} alt="" data-testid="recipe-photo" />

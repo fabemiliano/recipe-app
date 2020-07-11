@@ -94,6 +94,7 @@ function CockTailsControlsRecipeProgress(props) {
       <h1>{inProgressDrink.strDrink}</h1>
       <h2 data-testid="recipe-category">{inProgressDrink.strCategory}</h2>
       <h3 data-testid="recipe-title"> Ingredients </h3>
+      <div className="check-div">
       {data.map((element, i) => (
         <div key={element.meal} data-testid={`${i}-ingredient-step`}>
           <span>
@@ -109,9 +110,10 @@ function CockTailsControlsRecipeProgress(props) {
           </span>
         </div>
       ))}
+      </div>
       <div className="instructions" data-testid="instructions">
         <h3>Instruções</h3>
-        {inProgressDrink.strInstructions}
+        <p>{inProgressDrink.strInstructions}</p>
       </div>
       {buttonEnabled
         ? (

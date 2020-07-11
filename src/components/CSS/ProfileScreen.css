@@ -1,8 +1,9 @@
 .container-profile {
   background-image: url('../../images/loginbackground.jpg');
+  background-size: cover;
   display: inline-block;
   height: 100vh;
-  width: 360px;
+  width: 100%;
 }
 
 .profile-screen-buttons {
@@ -11,11 +12,12 @@
   flex-direction: column;
   height: 500px;
   justify-content: space-between;
-  width: 360px;
+  width: 100%;
 }
 
 .profile-screen-buttons p {
-  font-size: 20px;
+  font-size: 40px;
+  font-weight: 900;
   margin: 100px 0 0;
 }
 
@@ -36,4 +38,15 @@
 
 .profile-screen-buttons button:hover {
   transform: scale3d(1.1, 1.1, 1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-screen-buttons p {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .profile-screen-buttons a button {
+    font-size: 1.3rem;
+    width: 240px;
+  }
 }
