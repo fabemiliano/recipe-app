@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/recipe-app/static/css/main.820768c7.chunk.css",
-    "main.js": "/recipe-app/static/js/main.d7864c45.chunk.js",
-    "main.js.map": "/recipe-app/static/js/main.d7864c45.chunk.js.map",
+    "main.css": "/recipe-app/static/css/main.5babb6c1.chunk.css",
+    "main.js": "/recipe-app/static/js/main.8e7e90d5.chunk.js",
+    "main.js.map": "/recipe-app/static/js/main.8e7e90d5.chunk.js.map",
     "runtime-main.js": "/recipe-app/static/js/runtime-main.b95f7359.js",
     "runtime-main.js.map": "/recipe-app/static/js/runtime-main.b95f7359.js.map",
-    "static/js/2.a1666863.chunk.js": "/recipe-app/static/js/2.a1666863.chunk.js",
-    "static/js/2.a1666863.chunk.js.map": "/recipe-app/static/js/2.a1666863.chunk.js.map",
+    "static/js/2.c2669219.chunk.js": "/recipe-app/static/js/2.c2669219.chunk.js",
+    "static/js/2.c2669219.chunk.js.map": "/recipe-app/static/js/2.c2669219.chunk.js.map",
     "index.html": "/recipe-app/index.html",
-    "precache-manifest.25a5d066b0e7ec1faf80475a503d117c.js": "/recipe-app/precache-manifest.25a5d066b0e7ec1faf80475a503d117c.js",
+    "precache-manifest.09954a269b25e6d797f526ab282d68c6.js": "/recipe-app/precache-manifest.09954a269b25e6d797f526ab282d68c6.js",
     "service-worker.js": "/recipe-app/service-worker.js",
-    "static/css/main.820768c7.chunk.css.map": "/recipe-app/static/css/main.820768c7.chunk.css.map",
-    "static/js/2.a1666863.chunk.js.LICENSE.txt": "/recipe-app/static/js/2.a1666863.chunk.js.LICENSE.txt",
+    "static/css/main.5babb6c1.chunk.css.map": "/recipe-app/static/css/main.5babb6c1.chunk.css.map",
+    "static/js/2.c2669219.chunk.js.LICENSE.txt": "/recipe-app/static/js/2.c2669219.chunk.js.LICENSE.txt",
     "static/media/beef.svg": "/recipe-app/static/media/beef.ab0af8ef.svg",
     "static/media/blackHeartIcon.svg": "/recipe-app/static/media/blackHeartIcon.b8913346.svg",
     "static/media/breakfast.svg": "/recipe-app/static/media/breakfast.7779bd6d.svg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b95f7359.js",
-    "static/js/2.a1666863.chunk.js",
-    "static/css/main.820768c7.chunk.css",
-    "static/js/main.d7864c45.chunk.js"
+    "static/js/2.c2669219.chunk.js",
+    "static/css/main.5babb6c1.chunk.css",
+    "static/js/main.8e7e90d5.chunk.js"
   ]
 }
