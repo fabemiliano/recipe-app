@@ -6,13 +6,13 @@ function WelcomeScreen() {
   const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setRedirect(true), 4000);
+    setTimeout(() => setRedirect(true), 400000);
   });
 
   return (
     <div className="welcome-screen">
       <div className="welcome-phrase">
-        Welcome!
+        Bem-vindo!
       </div>
       {redirect && <Redirect to="/comidas" />}
     </div>

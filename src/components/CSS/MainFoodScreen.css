@@ -3,6 +3,7 @@
   background-size: cover;
   margin: 70px 0;
   width: 100%;
+  min-height: 90vh;
 }
 
 .recipes-results {

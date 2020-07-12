@@ -5,13 +5,13 @@ import { ContextAplication } from '../context/ContextAplication';
 import InferiorMenu from './InferiorMenu';
 import Header from './Header';
 import './CSS/MainFoodScreen.css';
-import chicken from '../images/chicken.svg';
-import beef from '../images/beef.svg';
-import goat from '../images/goat.svg';
-import dessert from '../images/dessert.svg';
-import breakfast from '../images/breakfast.svg';
+import ordinary from '../images/ordinary.svg';
+import cocktail from '../images/cocktail.svg';
+import shake from '../images/goat.svg';
+import unknown from '../images/dessert.svg';
+import cocoa from '../images/breakfast.svg';
 
-const filterPics = [beef, breakfast, chicken, dessert, goat];
+const filterPics = [ordinary, cocktail, shake, unknown, cocoa];
 
 function FilterButtons(Categories, handleClick) {
   return (
