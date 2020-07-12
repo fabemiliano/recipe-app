@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc3ecf49a5bddabf3f2567a406218784",
+    "revision": "28400ed6ddd9c7ab0b53089c1bd77418",
     "url": "/recipe-app/index.html"
   },
   {
-    "revision": "84ecb30ca68ed1b10aa8",
-    "url": "/recipe-app/static/css/main.5babb6c1.chunk.css"
+    "revision": "d1e170d375be3aaa52e0",
+    "url": "/recipe-app/static/css/main.f216b9bf.chunk.css"
   },
   {
-    "revision": "648fb6d9fa72407ec29b",
-    "url": "/recipe-app/static/js/2.c2669219.chunk.js"
+    "revision": "bf5e744629e15e5c59d2",
+    "url": "/recipe-app/static/js/2.23955384.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/recipe-app/static/js/2.c2669219.chunk.js.LICENSE.txt"
+    "url": "/recipe-app/static/js/2.23955384.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84ecb30ca68ed1b10aa8",
-    "url": "/recipe-app/static/js/main.8e7e90d5.chunk.js"
+    "revision": "d1e170d375be3aaa52e0",
+    "url": "/recipe-app/static/js/main.20a4a68a.chunk.js"
   },
   {
     "revision": "4b9365336cfc937175bb",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f84f498822e60923334dc27876286c2b",
     "url": "/recipe-app/static/media/chicken.f84f4988.svg"
+  },
+  {
+    "revision": "a52d88a70f305f7e0dd178fde590462d",
+    "url": "/recipe-app/static/media/cocktail.a52d88a7.svg"
   },
   {
     "revision": "92e5d5418d8b812205e2468e226cd60f",
@@ -74,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b27ba19ea033355b73926443af1756e9",
     "url": "/recipe-app/static/media/mealIcon.b27ba19e.svg"
+  },
+  {
+    "revision": "c669e65eac815523a1cdef6bd8db96cd",
+    "url": "/recipe-app/static/media/ordinary.c669e65e.svg"
   },
   {
     "revision": "74e487e504d5cf16d7832bef2fbacfea",
