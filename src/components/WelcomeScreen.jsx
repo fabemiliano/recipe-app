@@ -6,7 +6,7 @@ function WelcomeScreen() {
   const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setRedirect(true), 400000);
+    setTimeout(() => setRedirect(true), 4000);
   });
 
   return (
