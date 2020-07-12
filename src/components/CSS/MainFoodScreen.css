@@ -258,6 +258,14 @@ a:visited {
   }
 }
 
+.not-found {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 193, 214);
+}
 
 @media only screen and (min-width: 600px){
 
@@ -326,6 +334,10 @@ a:visited {
   text-decoration: none;
   transform: scale3d(1.1, 1.1, 1.1);
   width: 13%;
+}
+
+.not-found img{
+  width: 500px;
 }
 }
 
