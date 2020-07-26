@@ -27,7 +27,7 @@ function renderRadioButtons(setSearchBy, setDisabled) {
             setDisabled(false);
           }}
         />
-        Ingrediente
+        Ingredient
       </label>
       <label htmlFor="name">
         <input
@@ -40,7 +40,7 @@ function renderRadioButtons(setSearchBy, setDisabled) {
             setDisabled(false);
           }}
         />
-        Nome
+        Recipe Name
       </label>
       <label htmlFor="first-letter">
         <input
@@ -53,7 +53,7 @@ function renderRadioButtons(setSearchBy, setDisabled) {
             setDisabled(false);
           }}
         />
-        Primeira Letra
+        First Letter
       </label>
     </div>
   );
