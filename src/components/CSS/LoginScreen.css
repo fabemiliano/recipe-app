@@ -1,8 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/bd9805cba4fdbd10e6f9d097dab9225f?family=Chalkduster);
+
 .login-screen {
   align-items: center;
   background-image: url('../../images/loginbackground.jpg');
   background-size: cover;
-  border: 1px solid black;
   box-shadow: gray 5px 5px 2px;
   display: flex;
   flex-direction: column;
@@ -47,7 +48,7 @@ h2 {
 .app-name {
   color: rgb(32, 193, 214);
   font-family: Chalkduster, serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .input-login {
@@ -57,5 +58,5 @@ h2 {
   color: rgb(32, 193, 214);
   margin: auto;
   padding: 15px 0;
-  width: 70%;
+  width: 90%;
 }
