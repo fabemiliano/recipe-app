@@ -12,7 +12,7 @@ function WelcomeScreen() {
   return (
     <div className="welcome-screen">
       <div className="welcome-phrase">
-        Bem-vindo!
+        Welcome!
       </div>
       {redirect && <Redirect to="/comidas" />}
     </div>

@@ -16,7 +16,7 @@ function ExploreDrinkIngredientScreen() {
 
   return (
     <div>
-      <Header screen={'Explorar Ingredientes'} />
+      <Header screen={'Explore Ingredients'} />
       <div className="food-screen">
         <div className="ingridients-list">
           {ingredients.reduce((arr, e, i) => {

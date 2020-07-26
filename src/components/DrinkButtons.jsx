@@ -99,7 +99,7 @@ function Buttons() {
           onClick={() => setGoToRoute(true)}
           className="start-button"
         >
-          Iniciar Receita
+          Begin Recipe
         </button>
       )}
       {getStartedLocalStorage(id) && !getDoneLocalStorage(id) && (
@@ -109,11 +109,11 @@ function Buttons() {
           data-testid="start-recipe-btn"
           onClick={() => setGoToRoute(true)}
         >
-          Continuar Receita
+          Continue Recipe
         </button>
       )}
       {renderShareButton(setHide)}
-      <p className="alert" hidden={hide}>Link copiado!</p>
+      <p className="alert" hidden={hide}>Link copied!</p>
       {goToRoute && <Redirect to={`/bebidas/${id}/in-progress`} />}
     </div>
   );

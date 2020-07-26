@@ -16,7 +16,7 @@ export default function DetailsFoodScreen(props) {
 
   return (
     <div>
-      {isLoading && <h1>Carregando...</h1>}
+      {isLoading && <h1>Loading...</h1>}
       {!isLoading && (
         <div className="details-screen">
             {!isLoading && <FoodBasicInfo />}

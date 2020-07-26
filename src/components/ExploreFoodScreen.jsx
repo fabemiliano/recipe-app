@@ -15,25 +15,25 @@ function ExploreFoodScreen() {
 
   return (
     <div className="explore-screen">
-      <Header screen={'Explorar Comidas'} />
+      <Header screen={'Explore Food'} />
       <div className="explore-container" >
         <Link to="/explorar/comidas/ingredientes">
           <button
             className="explore-food-button fade-in-fwd"
             data-testid="explore-by-ingredient"
-          >Por Ingredientes</button>
+          >By Ingredients</button>
         </Link>
         <Link to="/explorar/comidas/area">
           <button
             className="explore-food-button fade-in-fwd"
             data-testid="explore-by-area"
-          >Por Local de Origem</button>
+          >By Origin</button>
         </Link>
         <button
           className="explore-food-button fade-in-fwd"
           data-testid="explore-surprise"
           onClick={handleClick}
-        >Me Surpreenda!</button>
+        >Surprise Me!</button>
       </div>
       {id !== '' && <Redirect to={`/comidas/${id}`} />}
       <InferiorMenu />

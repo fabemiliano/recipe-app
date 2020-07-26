@@ -78,7 +78,7 @@ const renderButton = () => (
       data-testid="finish-recipe-btn"
       type="button"
     >
-      Finish Recipe Button
+      Finish Recipe
     </button>
   </div>
 );
@@ -112,7 +112,7 @@ function CockTailsControlsRecipeProgress(props) {
       ))}
       </div>
       <div className="instructions" data-testid="instructions">
-        <h3>Instruções</h3>
+        <h3>Instructions</h3>
         <p>{inProgressDrink.strInstructions}</p>
       </div>
       {buttonEnabled
@@ -124,7 +124,7 @@ function CockTailsControlsRecipeProgress(props) {
             onClick={() => doneRecipe(inProgressDrink, setGoToRoute)}
             type="button"
           >
-            Finish Recipe Button
+            Finish Recipe
           </button>
         )
         : renderButton()}

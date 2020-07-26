@@ -5,7 +5,7 @@ import { ContextAplication } from '../context/ContextAplication';
 function renderRecomendations(recomendation) {
   return (
     <div>
-      <h3>Recomedações</h3>
+      <h3>Recomendations</h3>
       <div className="product-pic-recomendation">
         {recomendation.reduce((arr, e, i) => {
           if (i < 6) {
@@ -43,7 +43,7 @@ function BasicInfo() {
       </div>
       <h1 data-testid="recipe-title">{recipeInfo.strDrink}</h1>
       <h2 data-testid="recipe-category">{recipeInfo.strAlcoholic}</h2>
-      <h3>Ingredientes</h3>
+      <h3>Ingredients</h3>
       {quantity.reduce((arr, e, i) => {
         if (recipeInfo[e] !== null) {
           return ([...arr, (
@@ -54,7 +54,7 @@ function BasicInfo() {
           );
         } return arr;
       }, [])}
-      <h3>Instruções</h3>
+      <h3>Instructions</h3>
       <p data-testid="instructions">{recipeInfo.strInstructions}</p>
       {renderRecomendations(recomendation)}
     </div>

@@ -6,7 +6,7 @@ import { ContextAplication } from '../context/ContextAplication';
 function renderRcomendations(recomendation) {
   return (
     <div>
-      <h3>Recomedações</h3>
+      <h3>Recomedations</h3>
       <div className="product-pic-recomendation">
         {recomendation.reduce((arr, e, i) => {
           if (i < 6) {
@@ -43,7 +43,7 @@ function BasicInfo() {
       <div className="recipe-infos">
         <h1 data-testid="recipe-title">{recipeInfo.strMeal}</h1>
         <h2 data-testid="recipe-category">{recipeInfo.strCategory}</h2>
-        <h3>Ingredientes</h3>
+        <h3>Ingredients</h3>
         {quantity.reduce((arr, e, i) => {
           if (recipeInfo[e] !== '') {
             return ([...arr, (
@@ -55,7 +55,7 @@ function BasicInfo() {
           } return arr;
         }, [])}
         <div className="instructions-background">
-          <h3>Instruções</h3>
+          <h3>Instructions</h3>
           <p data-testid="instructions">{recipeInfo.strInstructions}</p>
         </div>
         <ReactPlayer width="350px" className="youtube" data-testid="video" height="200px" url={recipeInfo.strYoutube} />

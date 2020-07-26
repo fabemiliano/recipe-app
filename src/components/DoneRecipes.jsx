@@ -118,7 +118,7 @@ const DoneRecipes = () => {
 
   return (
     <div className="favorite-recipes-screen">
-      <Header screen="Receitas Feitas" />
+      <Header screen="Done Recipes" />
       {state && buttons(setRecipes, state)}
       {recipes && renderRecipes(recipes, setClp)}
       <p className="alert" hidden={clp}>Link copiado!</p>

@@ -7,13 +7,13 @@ import './CSS/ExploreHomeScreen.css';
 function ExploreHomeScreen() {
   return (
     <div className="explore-screen">
-      <Header screen={'Explorar'} />
+      <Header screen={'Explore'} />
       <div className="explore-menu fade-in-fwd ">
         <Link to="/explorar/comidas">
-          <p className="explore-button" data-testid="explore-food">Explorar Comidas</p>
+          <p className="explore-button" data-testid="explore-food">Explore Food</p>
         </Link>
         <Link to="/explorar/bebidas">
-          <p className="explore-button" data-testid="explore-drinks">Explorar Bebidas</p>
+          <p className="explore-button" data-testid="explore-drinks">Explore Drinks</p>
         </Link>
       </div>
       <InferiorMenu />

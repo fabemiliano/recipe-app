@@ -106,7 +106,7 @@ export default function ExploreFoodOriginScreen() {
   return (
     <div>
       <div className="food-screen">
-        <Header screen="Explorar Origem" />
+        <Header screen="Explore Origin" />
         {isLoading && <div className="loader" />}
         {!isLoading && !searchInputVisible}
         {renderAreaFilter(areas, setAreaFilter, areaFilter, setMealsByArea)}

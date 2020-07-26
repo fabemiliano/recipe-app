@@ -34,7 +34,7 @@ function createForm(input, setInput) {
           onChange={(ele) => handleChangeInput('password', ele.target.value, input, setInput)}
           type="password"
           name="password"
-          placeholder="Senha"
+          placeholder="password"
         />
       </div>
     </form>
@@ -67,7 +67,7 @@ function LoginScreen() {
         data-testid="login-submit-btn"
         onClick={() => handleFormSubmit(saveInput, input, history)}
       >
-        Entrar
+        Log In
       </button>
     </div>
   );

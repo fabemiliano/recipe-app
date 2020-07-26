@@ -8,17 +8,17 @@ function ProfileScreen() {
   const { email } = (JSON.parse(localStorage.getItem('user')) || { email: null });
   return (
     <div className="container-profile">
-      <Header screen="Perfil" />
+      <Header screen="Profile" />
       <div className="profile-screen-buttons">
         <p data-testid="profile-email">{email}</p>
         <Link to="/receitas-feitas" data-testid="profile-done-btn">
-          <button type="button">Receitas Feitas</button>
+          <button type="button">Done Recipes</button>
         </Link>
         <Link to="/receitas-favoritas" data-testid="profile-favorite-btn">
-          <button type="button">Receitas Favoritas</button>
+          <button type="button">Favorite Recipes</button>
         </Link>
         <Link to="/" data-testid="profile-logout-btn">
-          <button type="button" onClick={() => localStorage.clear()}>Sair</button>
+          <button type="button" onClick={() => localStorage.clear()}>Log Out</button>
         </Link>
       </div>
       <InferiorMenu />

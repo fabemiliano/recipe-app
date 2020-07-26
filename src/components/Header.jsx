@@ -25,7 +25,7 @@ function Header(props) {
           </Link>
         </div>
         <h1 className="foodTitle" data-testid="page-title">{screen}</h1>
-        {(screen === 'Comidas' || screen === 'Bebidas' || screen === 'Explorar Origem') && (
+        {(screen === 'Food' || screen === 'Drinks' || screen === 'Explore Origin') && (
           <div className="with-search-button">
             <button type="button" className="searchIcon" onClick={() => searchInput()}>
               <img
@@ -36,12 +36,12 @@ function Header(props) {
             </button>
           </div>
         )}
-        {(screen !== 'Comidas' && screen !== 'Bebidas' && screen !== 'Explorar Origem') && (
+        {(screen !== 'Food' && screen !== 'Drinks' && screen !== 'Explore Origin') && (
           <div className="no-search-button" />
         )}
       </div>
-      {searchInputVisible && (screen === 'Comidas') && <FoodSearchBar />}
-      {searchInputVisible && (screen === 'Bebidas') && <DrinkSearchBar />}
+      {searchInputVisible && (screen === 'Food') && <FoodSearchBar />}
+      {searchInputVisible && (screen === 'Drinks') && <DrinkSearchBar />}
     </div>
   );
 }
