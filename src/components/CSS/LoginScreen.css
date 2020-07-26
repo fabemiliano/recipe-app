@@ -56,6 +56,8 @@ h2 {
   border: transparent;
   border-bottom: 2px solid rgb(32, 193, 214);
   color: rgb(32, 193, 214);
+  font-size: 30px;
+  height: 40px;
   margin: auto;
   padding: 15px 0;
   width: 90%;
