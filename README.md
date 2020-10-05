@@ -22,4 +22,4 @@ The App has few features including:
 - A page showing the favorited recipes
 - A discover menu
 
-A deployed version of the application can be found on: www.fabemiliano.github.io/recipe-app
+A deployed version of the application can be found on: fabemiliano.github.io/recipe-app
